@@ -1,7 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Home from './assets/Home'
-import Animat from './assets/Animat';
 import "./App.css"
 
 
