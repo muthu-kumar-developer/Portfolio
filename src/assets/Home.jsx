@@ -108,8 +108,6 @@ const Home = () => {
     },
   };
 
-
-
   const Animat = ({
     desc = "Project description",
     techStacks = ["React", "Tailwind"],
@@ -483,11 +481,6 @@ const Home = () => {
       </>
     );
   };
-
-
-
-
-
 
   
   Animat.propTypes = {
