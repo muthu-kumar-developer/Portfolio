@@ -26,7 +26,7 @@ import {
   FaGit,
 } from "react-icons/fa";
 import { SiRedux, SiExpress, SiTailwindcss } from "react-icons/si";
-import resume from "./resume/Muthu kumar resume.pdf"
+import resume from "./resume/Muthu Kumar resume.pdf"
 
 
 const Home = () => {
@@ -155,7 +155,7 @@ const Home = () => {
           onClick={() => setIsOpen(!isOpen)}
           className={`absolute left-14 h-60 cursor-pointer w-[540px] top-[720px] ${
             isOpen
-              ? "fixed h-[90vh] top-4 left-4 right-4 md:top-20 md:left-[20vw] md:right-[20vw] lg:left-[25vw] lg:right-[25vw]"
+              ? "fixed z-50 h-[90vh] top-4 left-4 right-4 md:top-20 md:left-[20vw] md:right-[20vw] lg:left-[25vw] lg:right-[25vw]"
               : "w-[100vw] md:w-[45vw] lg:w-[30vw]"
           }`}
           layout
@@ -171,7 +171,7 @@ const Home = () => {
   key={currentImageIndex}
   src={images[currentImageIndex]}
   alt={`Project screenshot ${currentImageIndex + 1}`}
-  className={`w-full object-cover h-[238px] rounded-lg ${
+  className={`w-full object-cover h-[242px] rounded-lg ${
     isOpen ? "h-[23vh] lg:h-[51vh]" : "h-[30vh]"
   }`}
   initial={{ opacity: 0, x: -100 }}
@@ -356,7 +356,7 @@ const Home = () => {
   key={currentImageIndex}
   src={images[currentImageIndex]}
   alt={`Project screenshot ${currentImageIndex + 1}`}
-  className={`w-full object-cover h-[238px] rounded-lg ${
+  className={`w-full object-cover h-[242px] rounded-lg ${
     isOpen ? "h-[23vh] lg:h-[51vh]" : "h-[30vh]"
   }`}
   initial={{ opacity: 0, x: -100 }}
