@@ -26,7 +26,7 @@ import {
   FaGit,
 } from "react-icons/fa";
 import { SiRedux, SiExpress, SiTailwindcss } from "react-icons/si";
-import resume from "./resume/MuthuKumarResume.pdf"
+import resume from "./resume/Muthu Kumar resume.pdf"
 
 
 const Home = () => {
